@@ -12,7 +12,7 @@
             background-color: #f4f4f4;
         }
         header, footer {
-            background-color: #333;
+            background-color: white;
             color: #fff;
             text-align: center;
             padding: 1rem;
@@ -29,7 +29,7 @@
             margin-top: 1rem;
         }
         table, th, td {
-            border: 1px solid #333;
+            border: 1px solid white;
         }
         th, td {
             padding: 0.5rem;
@@ -41,17 +41,20 @@
     </style>
 </head>
 <body>
+    <link rel="stylesheet" href="./style.css">
     <header>
         <h1>Welcome to Our School</h1>
     </header>
+    <div class="scale"></div>
     <main>
         <!-- Introduction Section -->
         <h2>About Us</h2>
-        <p>Welcome to the <strong>School of Excellence</strong>. Our mission is to provide quality education and foster growth and development in every student.</p>
-        <p>We offer a wide range of <em>extracurricular activities</em> and advanced academic programs to ensure a holistic learning experience.</p>
+        <p id="p1">Welcome to the <strong>School of Excellence</strong>. Our mission is to provide quality education and foster growth and development in every student.</p>
+        <p id="p2">We offer a wide range of <em>extracurricular activities</em> and advanced academic programs to ensure a holistic learning experience.</p>
 
         <!-- Academic Programs Section -->
         <h2>Academic Programs</h2>
+        <div class="scale"></div>
         <ul>
             <li>Science</li>
             <li>Mathematics</li>
@@ -59,13 +62,15 @@
             <li>Literature</li>
             <li>Physical Education</li>
         </ul>
+       
 
         <!-- Teachers Section -->
         <h2>Our Teachers</h2>
-        <p>We have a dedicated team of educators who are committed to nurturing and guiding our students.</p>
+        <p id="teachers">We have a dedicated team of educators who are committed to nurturing and guiding our students.</p>
 
         <!-- Timetable Section -->
         <h2>Class Timetable</h2>
+        <div class="box">
         <table>
             <tr>
                 <th>Time</th>
@@ -96,20 +101,22 @@
                 <td>Literature</td>
             </tr>
         </table>
+    </div>
 
         <!-- Contact Section -->
         <h2>Contact Us</h2>
-        <p> <a href="mailto:mumin@school.com">mumin@school.com</a> or call us at <a href="tel:+2519*">+2519</a>.</p>
+        <p id="link"> <a href="mailto:SANSKAR@school.com">SANSKAR@school.com</a> or call us at <a href="tel:+2519*">+2519765478</a>.</p>
 
         <!-- Multimedia Section -->
          <audio src="./music.mp3"></audio>
         <h2>School vedio</h2>
         <video src="./VEDIO.mp4" width="1200" muted autoplay></video>
         <h3> picture</h3>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjPPVV4h6t26Olxkn1DJysVuDDNSwuHaeUGg&s" width="200">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjPPVV4h6t26Olxkn1DJysVuDDNSwuHaeUGg&s" width="500">
     </main>
-    <h4>audio </h4>
-  <audio src="./AUDIO.mp3" controls></audio>
-
+    <div class="scale2"></div>
+    <div class="scale3"></div>
+    <!-- <h4>audio </h4>
+  <audio src="./AUDIO.mp3" controls id="audio"></audio> -->
 </body>
 </html>
